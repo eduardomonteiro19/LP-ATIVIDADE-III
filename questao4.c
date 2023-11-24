@@ -5,6 +5,8 @@
 
 
 int main() {
+    setlocale(LC_ALL, "portuguese");
+
     int numeros[5];
     int i;
     int countImpares = 0;
